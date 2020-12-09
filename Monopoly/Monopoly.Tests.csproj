@@ -40,8 +40,15 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fields\Field.cs" />
+    <Compile Include="Fields\AutoCompany.cs" />
+    <Compile Include="Fields\ClotherCompany.cs" />
+    <Compile Include="Fields\FoodCompany.cs" />
+    <Compile Include="Fields\Prison.cs" />
     <Compile Include="Monopoly.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="TestClass.cs" />
+    <Compile Include="Fields\TravelCompany.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
